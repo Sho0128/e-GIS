@@ -7,14 +7,15 @@
 
 ### ディレクトリ構成
 e-GIS
-├── README.md
-├── apps
-│   ├── config
-│   ├── manage.py
-│   ├── map
-│   ├── static
-│   ├── templates
-│   └── test_app
+- README.md
+- apps
++ config
++ map
++ static
++ templates
++ test_app
+- manage.py
+
 ├── python
 │   ├── bin
 │   ├── include
