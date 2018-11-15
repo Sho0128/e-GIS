@@ -114,4 +114,3 @@ createdb mapdb -O postgres
 ## うまくセットアップできると...
 こんな感じでマップが表示されます
 ![Django Leaflet](https://github.com/Sho0128/images/blob/master/django_leaflet.png "Django Leaflet")
-
