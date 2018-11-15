@@ -1,12 +1,12 @@
 # e-GIS
 
-### 開発環境
+## 開発環境
 * Python 3.6.5 (virtualenv)
 * Django 2.1.3
 * PostgreSQL 9.6
 
 
-### ディレクトリ構成
+## ディレクトリ構成
 
 
 ```
@@ -28,8 +28,8 @@ e-GIS
 ```
 
 
-### pythonの環境整備
-#### macの場合 (pyenvがインストール済み前提)
+## pythonの環境整備
+### macの場合 (pyenvがインストール済み前提)
 python 3.6.5のインストール
 
 ```
