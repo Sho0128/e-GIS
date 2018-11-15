@@ -104,7 +104,8 @@ createdb mapdb -O postgres
 
 ## 参考にしたサイト
 ### Django
-[Python Django 入門](https://qiita.com/kaki_k/items/511611cadac1d0c69c54 "Python Django 入門")　　
+[Python Django 入門](https://qiita.com/kaki_k/items/511611cadac1d0c69c54 "Python Django 入門")
+
 [Django Girls](https://tutorial.djangogirls.org/ja/ "Django Girls")
 
 ### Django Leaflet
