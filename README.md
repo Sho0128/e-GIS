@@ -36,3 +36,28 @@ python 3.6.5のインストール
 pyenv install 3.6.5
 ```
 
+プロジェクトのpython環境を3.6.5に設定
+
+```
+pyenv local 3.6.5
+```
+
+virtualenvをインストール
+
+```
+pip install virtualenv
+```
+
+ディレクトリ名を指定してvirtualenvを作成
+
+```
+python -m virtualenv <dir(今回はpython)>
+```
+
+virtualenvの有効化
+
+```
+source ./python/bin/activate
+```
+
+
