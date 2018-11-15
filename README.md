@@ -74,4 +74,9 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
+** PostgreSQLの設定
+./apps/config/settings.py で設定
 
+```
+
+```
