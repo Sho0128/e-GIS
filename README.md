@@ -7,18 +7,17 @@
 
 ### ディレクトリ構成
 e-GIS
-- README.md
-- apps
-+ config
-+ map
-+ static
-+ templates
-+ test_app
-- manage.py
-
-├── python
-│   ├── bin
-│   ├── include
-│   ├── lib
-│   └── pip-selfcheck.json
-└── requirements.txt
+* README.md
+* apps
+** config
+** map
+** static
+** templates
+** test_app
+** manage.py
+* python
+** bin
+** include
+** lib
+** pip-selfcheck.json
+*requirements.txt
