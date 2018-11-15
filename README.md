@@ -27,3 +27,12 @@ e-GIS
 └── requirements.txt
 ```
 
+
+### pythonの環境整備
+#### macの場合 (pyenvがインストール済み前提)
+python 3.6.5のインストール
+
+```
+pyenv install 3.6.5
+```
+
