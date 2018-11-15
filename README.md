@@ -104,9 +104,9 @@ createdb mapdb -O postgres
 
 ## 参考にしたサイト
 ### Django
-[Python Django 入門](https://qiita.com/kaki_k/items/511611cadac1d0c69c54 "Python Django 入門")
+[Python Django 入門](https://qiita.com/kaki_k/items/511611cadac1d0c69c54 "Python Django 入門")　　
 [Django Girls](https://tutorial.djangogirls.org/ja/ "Django Girls")
 
 ### Django Leaflet
-[Easy Webmapping with django-leaflet & django-geojson](https://fle.github.io/easy-webmapping-with-django-leaflet-and-django-geojson.html "Easy Webmapping with django-leaflet & django-geojson")
+[Easy Webmapping with django-leaflet & django-geojson](https://fle.github.io/easy-webmapping-with-django-leaflet-and-django-geojson.html "Easy Webmapping with django-leaflet & django-geojson")　　
 
