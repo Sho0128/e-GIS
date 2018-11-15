@@ -89,3 +89,15 @@ DATABASES = {
     }
 }
 ```
+
+PostgreSQL側ではpostgresユーザを作成
+
+```
+createuser -P postgres
+```
+
+DBを作成 (とりあえず名前はmapdbにしました)
+
+```
+createdb mapdb -O postgres
+```
