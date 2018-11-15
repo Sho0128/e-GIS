@@ -5,6 +5,7 @@
 * Django 2.1.3
 * PostgreSQL 9.6
 
+
 ### ディレクトリ構成
 
 
@@ -14,12 +15,11 @@ e-GIS
 ├── apps
 │   ├── config
 │   ├── manage.py
-│   ├── map
-
+│   ├── map (マップ機能)
 │   ├── static
 │   ├── templates
-│   └── test_app
-├── python
+│   └── test_app (djangoの動作確認とかpostgresqlの連携確認とかに使用)
+├── python (virtualenvで3.6.5環境を作成
 │   ├── bin
 │   ├── include
 │   ├── lib
