@@ -6,18 +6,23 @@
 * PostgreSQL 9.6
 
 ### ディレクトリ構成
+
+
+'''
 e-GIS
-* README.md
-* apps
-** config
-** map
-** static
-** templates
-** test_app
-** manage.py
-* python
-** bin
-** include
-** lib
-** pip-selfcheck.json
-*requirements.txt
+├── README.md
+├── apps
+│   ├── config
+│   ├── manage.py
+│   ├── map
+
+│   ├── static
+│   ├── templates
+│   └── test_app
+├── python
+│   ├── bin
+│   ├── include
+│   ├── lib
+│   └── pip-selfcheck.json
+└── requirements.txt
+'''
