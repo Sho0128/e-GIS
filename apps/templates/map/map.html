@@ -1,0 +1,22 @@
+{% extends "map/base.html" %}
+{% load leaflet_tags %}
+
+{% block extra_assets %}
+  {% leaflet_js %}
+  {% leaflet_css %}
+{% endblock %}
+
+{% block content %}
+
+    <script type="text/javascript">
+      function map_init(map, options) {
+        var lat = 38.260090;
+        var lon = 140.881676;
+
+        map.setView([lat, lon], 15);
+      }
+    </script>
+
+    {% leaflet_map "map" callback="window.map_init" %}
+
+{% endblock %}

@@ -1,0 +1,4 @@
+# virtualenv
+python/
+.python-version
+.DS_Store

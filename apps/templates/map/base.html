@@ -1,0 +1,36 @@
+{% load i18n static %}
+<!DOCTYPE html>{% get_current_language as LANGUAGE_CODE %}
+<html lang="{{ LANGUAGE_CODE|default:"en-us" }}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="{% static '/css/bootstrap.min.css' %}">
+{% load leaflet_tags %}
+{% block extra_css %}
+  {% leaflet_js %}
+  {% leaflet_css %}
+{% endblock %}
+<title>{% block title %}Map{% endblock %}</title>
+<style>
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  html, body, #map {
+    height: 100%;
+    width: 100%;
+  }
+</style>
+
+</head>
+<body>
+  <div id="map">
+    {% block content %}
+      {{ content }}
+    {% endblock %}
+  </div>
+<script src="{% static '/js/jquery-3.3.1.min.js' %}"></script>
+<script src="{% static '/js/bootstrap.bundle.min.js' %}"></script>
+{% block extra_js %}{% endblock %}
+</body>
+</html>
