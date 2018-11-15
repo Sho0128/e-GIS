@@ -74,9 +74,18 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-** PostgreSQLの設定
+## PostgreSQLの設定
 ./apps/config/settings.py で設定
 
 ```
-
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'mapdb',
+        'USER': 'postgres',
+        'PASSWORD': '',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}
 ```
