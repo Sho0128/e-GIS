@@ -60,4 +60,18 @@ virtualenvの有効化
 source ./python/bin/activate
 ```
 
+virtualenv終了
+
+```
+deactivate
+```
+
+pipで必要なモジュールをインストール
+
+```
+(virtualenvを有効にした状態で)
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
 
