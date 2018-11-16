@@ -74,6 +74,32 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
+### Windowsの場合
+以下からPython3.6.5をインストール
+
+[https://www.python.org/](https://www.python.org/ "https://www.python.org/")
+
+以下のコマンドで仮想環境を作成
+
+```
+<pythonをインストールしたフォルダ>\python -m venv <仮想環境名>
+```
+
+venvの有効化
+
+```
+.\<仮想環境名>\Scripts\activate
+```
+
+venv終了
+
+```
+deactivate
+```
+
+モジュールのインストールなどはmacと同じ
+
+
 ## PostgreSQLの設定
 ./apps/config/settings.py で設定
 
